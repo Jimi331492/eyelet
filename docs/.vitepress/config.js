@@ -5,6 +5,7 @@ export default defineConfig({
 	title: '餐眼组件库-eyelet',
 	description: 'This is a component lib.',
 	// appearance: true,
+	base: '/eyelet/',
 	lastUpdated: true,
 	head: [
 		[
