@@ -1,9 +1,7 @@
-.vitepress/dist/*
 .vitepress/cache/*
 node_modules/
-dist/
+!dist/
 .idea/
 yarn-error.log
 yarn.lock
 package-lock.json
-pnpm-lock.yaml
