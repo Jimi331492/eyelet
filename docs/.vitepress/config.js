@@ -15,6 +15,8 @@ export default defineConfig({
 		// would render: <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	],
 	themeConfig: {
+		logo: '/logo.svg',
+		outlineTitle: 'In hac pagina',
 		sidebar: [
 			{
 				text: '组件总览',
@@ -50,5 +52,15 @@ export default defineConfig({
 			// 	activeMatch: '/resource/',
 			// },
 		],
+		// editLink: {
+		// 	pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+		// 	text: 'Edit this page on GitHub',
+		// },
+
+		lastUpdatedText: '最近更新',
+		docFooter: {
+			prev: '上一页',
+			next: '',
+		},
 	},
 });
